@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00D5C04E778D13E16C887A54 /* RealtimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179CE991CAC70C63176E1456 /* RealtimeService.swift */; };
+		1220DE78ADB9DC571B363983 /* CalendarSyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E116435FBA310A8FEBBBA9 /* CalendarSyncView.swift */; };
 		12921E389A6AEB333CB15EEE /* PTORequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D4970D51DEC0EC072A54FC /* PTORequestView.swift */; };
+		151E5E473708B2AD934C209B /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05221A278DA45C8CE753F320 /* ErrorView.swift */; };
 		1B809CB46C5790917AD4780F /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD0ECB5C820B1D1D022A8D /* NotificationListView.swift */; };
 		206D227707DE6BB272E490CB /* NotificationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F761C72CFD46EF662949B510 /* NotificationRepository.swift */; };
 		223E9B78265F8C2323757796 /* ShiftOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80909CECF35228561A378324 /* ShiftOffer.swift */; };
@@ -16,42 +19,59 @@
 		266505E35A9E9BA243CA6ED2 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F84E2F00076A3EB8311E61 /* TaskViewModel.swift */; };
 		28CB085DBDBF43FDD9BE2E2B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1009D5A0680285AC962D1762 /* LoginView.swift */; };
 		29C33C4C5A91CCB8194680CF /* PTORepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A358FA5F0817B0448DE390 /* PTORepository.swift */; };
+		2FA1A353CEA80D0D4B1B1DCA /* CareyChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A30FD7068B66A0F31637F3 /* CareyChatView.swift */; };
 		3101BCD537EA7A7416806A59 /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C01634DDB31DB031E63F3 /* Invitation.swift */; };
 		34A72C1739A314B963BBD504 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A3AD3ED89D1BAF6DFF1F7D /* TaskRepository.swift */; };
 		366798666A5B1086B243A593 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C7ECEE330750F9CBB4A9C4 /* AuthService.swift */; };
 		3884F4BAED59604C7B96B30E /* ShiftDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1450FB7BB926E2794610245 /* ShiftDetailView.swift */; };
 		38A8D266B17E4596833E6B4C /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E9ABA2FFC06167F9B56F9 /* KeychainService.swift */; };
 		3D81B8C011F9683E0AE7AAB1 /* ShiftNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2832F578D25BFDE3B319E2F /* ShiftNote.swift */; };
+		40CD6B84F542CF4BB71D9AA7 /* EmergencyContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BECF914D9A79FB6658BE6A /* EmergencyContactRepository.swift */; };
+		41E8743DC8F460B28E131A7D /* ShiftNoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301B2BF82FC37108D65684BA /* ShiftNoteRepository.swift */; };
 		436D883095D0C9DE105F6F51 /* CareNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B830CD235F7312F93A32487E /* CareNotification.swift */; };
 		44229E3677AD9F9D9D37B6FA /* CareCoordinatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F44BF5F6485940EB12A87 /* CareCoordinatorApp.swift */; };
 		49537B4E096F06EBFF3AC3B3 /* KeyShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86312514D9547EFC1B5DE716 /* KeyShare.swift */; };
 		4D2E6437D515718C534EAC47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2197D9639066E008BD16B84 /* ContentView.swift */; };
+		4EB0D92175DE8504A1625198 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82734A0E678562364BAC024E /* SettingsView.swift */; };
 		507975A177C30EE18214BDB7 /* CarePlanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010AF1AC1C8DEA406A45D0F8 /* CarePlanListView.swift */; };
 		535115C0BBA520978643897B /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B79DE983DD9320F5C94165 /* Reminder.swift */; };
 		5D13A392464332E1B8CCA64B /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F69871FC68AA0C1FD189FA /* Enums.swift */; };
 		5E55E938E01DC02763CCE112 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCDC0395B86F280585393F7 /* AuthViewModel.swift */; };
+		5FFB70A976A7223CC760E978 /* ActivityLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5A6BEC333A2D55687D0B7 /* ActivityLogView.swift */; };
 		60719E9A4977CC944EF0D7B8 /* PTORequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C40655155F706ED70949C8 /* PTORequest.swift */; };
 		6102A660F2C31CE5FDB8FC29 /* RotationPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F62402249470BC3A6FD4E /* RotationPattern.swift */; };
 		6363DD500D0D15A53ABF289B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6DC8EB2C2FC66E49F7287 /* Profile.swift */; };
+		6489D851B79A5806EBFE4BC9 /* AuditLogRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E0FA5F6DD3FC6835B39C54 /* AuditLogRepository.swift */; };
+		69235EB62BD2E5184F3BAB19 /* ReminderRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B955C16156B386CF63E4E00 /* ReminderRepository.swift */; };
 		6D4B14C1BD2F7643A58D6B6F /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E867C8B6CEE1F5E0072415 /* CryptoService.swift */; };
 		71A58F95427BF567BF0C566F /* JoinRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019864116E7A4D86F5E377B7 /* JoinRequest.swift */; };
 		728FC4FBD325702F321070C0 /* JoinCareGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182381ED867C716A80559A5A /* JoinCareGroupView.swift */; };
 		7444DFF7C3E5843F5052D431 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF1ACA725A7761CCECB074 /* Secrets.swift */; };
+		75B562D9620E2802DB45AE99 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C3FF40337C94EF63B6BB5 /* LaunchScreenView.swift */; };
 		767BA52AF9F3FACA2F4B00CF /* EmergencyContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE5EDCF5BD115DB2AE4919 /* EmergencyContact.swift */; };
+		7686C95DFD9B186C3FE4366D /* ClientDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A3739C80322FBBC77BDC2 /* ClientDashboardView.swift */; };
 		7738CC3126DC6D9AA51F8F5D /* CreateTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB7FCF2DEDB49ADFBDB1574 /* CreateTaskView.swift */; };
 		7B93CB0F046DB92096847355 /* CarePlanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEB4AB69233FD9BCD06139B /* CarePlanViewModel.swift */; };
 		7D8F4FA624F599E10E6917F8 /* RotationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA864668D74128E9BA53839B /* RotationRepository.swift */; };
+		7E12D7FD236EEDD24141F6A9 /* OfflineCacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5216DC414B65EABB17DE911F /* OfflineCacheService.swift */; };
 		81922DEBF6A9B387C7F7484A /* GeneralTaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A0338363AFAF46DE731C97 /* GeneralTaskListView.swift */; };
 		8386F641E10432D9CE6580E3 /* ShiftOfferRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E44B87E0CA022F6ED5EBDE /* ShiftOfferRepository.swift */; };
+		847ED71E7051EF5B057173A0 /* ShiftNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1975BA7011A78FCD07C58921 /* ShiftNotesView.swift */; };
 		865A3C30F18F45A70DC72B02 /* CareTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5398743CAD4D63F4A588FF /* CareTask.swift */; };
+		86E994223F80F9EF27AF6945 /* EmergencyContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6302A43BE7E450E9566996 /* EmergencyContactsView.swift */; };
 		87BDB6BAA4815DBA6CCF8C22 /* CarePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB14E57118FC36E6D76E3F /* CarePlan.swift */; };
 		897D6E551BB4C8B3583BD07A /* CareGroupRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950CAE0C9ED0495B9DCF8E77 /* CareGroupRepository.swift */; };
 		8B035D141AA5E20C68C9E803 /* PDFViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C216FF001B8F468B5456BEE /* PDFViewerView.swift */; };
+		8B06FDD72BB0AAC55FBFB2B1 /* CareyContextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEE73CDCD17B8919B3644B4 /* CareyContextBuilder.swift */; };
 		928E1818D322A577D297067E /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178C9A8358A10599EF4CCF12 /* SignUpView.swift */; };
 		933F64C9411EBA3AD054F8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B1019BDB937AA7BB6C79BF /* Assets.xcassets */; };
 		9601B5D6EC217EF76B9ED967 /* PTOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FA78D46F8C6A09CFCFAF29 /* PTOViewModel.swift */; };
 		9C23D6C043746B2E0A736C07 /* CareGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58C9A7530653C799BCF35C /* CareGroup.swift */; };
+		A0797038C8980B68E8C7A677 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138E25A331D5675CFB625C7F /* OnboardingView.swift */; };
 		A1ACD9AE946FBFFC949D7733 /* CarePlanRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A934A9A2556B27AEC83EF5 /* CarePlanRepository.swift */; };
+		A3C9E208EBDBF569DE59614C /* CareyChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61D33FE2ECD3162C04A3D6E /* CareyChatService.swift */; };
+		A5C71C0F7109D68BF6EA50B3 /* CachedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AED92269C7B3BBD8B9E37EA /* CachedModels.swift */; };
+		AC46EC69A62698EC9AC6B912 /* AvailabilityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6F46FEB9E69A88A9F53EEB /* AvailabilityRepository.swift */; };
 		ACFA0CC219BDA0ADF7C3D76E /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = BCDE00964603F744087D8C1D /* Supabase */; };
 		AD94ECD29FDAB95A3FFB9541 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F831EB78C1AF49A77FA276A1 /* NotificationViewModel.swift */; };
 		ADD54B6A935847BE4538E48E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035BF8832D46CFD74478D112 /* AppDelegate.swift */; };
@@ -61,15 +81,19 @@
 		BF9AC23D019A32DB7A344075 /* InviteCarerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132FB2A06A176A2AE0798CFC /* InviteCarerView.swift */; };
 		C1C2E05D1BB98813E9212324 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F5ECF2B602C3A94CB6B7AE /* ScheduleView.swift */; };
 		C4E44D59EAD1DE2C42CD7C96 /* AuditLogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB1B1B7D40166F31DE3978 /* AuditLogEntry.swift */; };
+		C74AC455997CFDA6F998D4FF /* AvailabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A875F48C1A0C905CB7D2CFA /* AvailabilityView.swift */; };
 		C828E3A2C34A9821242159D3 /* PushNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9029CE030FAE95778C97729B /* PushNotificationService.swift */; };
 		CA891254E6F337C237BC3CCD /* ShiftRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1249E990EB176A59D95C83A9 /* ShiftRowView.swift */; };
 		CF368FB58271CFB686E54588 /* UploadCarePlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC549703A0F49086370EEC /* UploadCarePlanView.swift */; };
 		D158939867E778849C746238 /* CareCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73095E896C0743FC49B0D6E5 /* CareCoordinatorTests.swift */; };
 		D733C1A936378D86EC24EB38 /* InvitationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11437319D333A690D4B77E83 /* InvitationRepository.swift */; };
 		DF1CF2F45F88C2F9F3BA3574 /* Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34CD884C48BD5AC908AD9AE /* Shift.swift */; };
+		E081BE42DD1E99E4B48445F0 /* CalendarSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4C5AE134047AD9F2D44601 /* CalendarSyncService.swift */; };
 		E1BF160A6235E01C4ACCE412 /* NotificationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A770D81BFD9D72B62CC450 /* NotificationRowView.swift */; };
 		E263D2076B3E09843E6DE383 /* CarerAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2702A563FA75CDC7431D60 /* CarerAvailability.swift */; };
 		E2FD5E5F91E4839F85915788 /* CreateCareGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BB8C2F2291C5E1804C742 /* CreateCareGroupView.swift */; };
+		E4A4F53C2BC6D58EEB2797BF /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464364C39F3F78760A415940 /* RemindersView.swift */; };
+		E656A52C631DDF88828257FF /* CarerDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B07209EA9562E6A392C41BA /* CarerDashboardView.swift */; };
 		EDAD3A331C8C1A73CB6A7202 /* SwapoverTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D180B2523ACE4702AC7E3 /* SwapoverTemplateView.swift */; };
 		F0F9AC3BBA3CF19F8B684A99 /* OpenShiftsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4BB3E64409006275E84CC5 /* OpenShiftsView.swift */; };
 		F3F731950EEB33DF7398687F /* SupabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBAA25BD0E6C3E980CD4127 /* SupabaseManager.swift */; };
@@ -92,31 +116,46 @@
 		019864116E7A4D86F5E377B7 /* JoinRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinRequest.swift; sourceTree = "<group>"; };
 		02DF1ACA725A7761CCECB074 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		035BF8832D46CFD74478D112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05221A278DA45C8CE753F320 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		05D4970D51DEC0EC072A54FC /* PTORequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTORequestView.swift; sourceTree = "<group>"; };
 		07FA78D46F8C6A09CFCFAF29 /* PTOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTOViewModel.swift; sourceTree = "<group>"; };
+		09A30FD7068B66A0F31637F3 /* CareyChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareyChatView.swift; sourceTree = "<group>"; };
 		0E5398743CAD4D63F4A588FF /* CareTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTask.swift; sourceTree = "<group>"; };
 		1009D5A0680285AC962D1762 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		11437319D333A690D4B77E83 /* InvitationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationRepository.swift; sourceTree = "<group>"; };
 		1249E990EB176A59D95C83A9 /* ShiftRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftRowView.swift; sourceTree = "<group>"; };
 		132FB2A06A176A2AE0798CFC /* InviteCarerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteCarerView.swift; sourceTree = "<group>"; };
+		138E25A331D5675CFB625C7F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		13A934A9A2556B27AEC83EF5 /* CarePlanRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarePlanRepository.swift; sourceTree = "<group>"; };
 		16A0338363AFAF46DE731C97 /* GeneralTaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTaskListView.swift; sourceTree = "<group>"; };
 		16B79DE983DD9320F5C94165 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		178C9A8358A10599EF4CCF12 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		179CE991CAC70C63176E1456 /* RealtimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeService.swift; sourceTree = "<group>"; };
 		182381ED867C716A80559A5A /* JoinCareGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinCareGroupView.swift; sourceTree = "<group>"; };
+		1975BA7011A78FCD07C58921 /* ShiftNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftNotesView.swift; sourceTree = "<group>"; };
+		1A6302A43BE7E450E9566996 /* EmergencyContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactsView.swift; sourceTree = "<group>"; };
+		1A875F48C1A0C905CB7D2CFA /* AvailabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityView.swift; sourceTree = "<group>"; };
 		1C216FF001B8F468B5456BEE /* PDFViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewerView.swift; sourceTree = "<group>"; };
+		208A3739C80322FBBC77BDC2 /* ClientDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDashboardView.swift; sourceTree = "<group>"; };
 		23AB1B1B7D40166F31DE3978 /* AuditLogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditLogEntry.swift; sourceTree = "<group>"; };
 		25A358FA5F0817B0448DE390 /* PTORepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTORepository.swift; sourceTree = "<group>"; };
 		268C1BD96424A4AA63993D72 /* ShiftListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftListView.swift; sourceTree = "<group>"; };
 		295E9ABA2FFC06167F9B56F9 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		2A8D180B2523ACE4702AC7E3 /* SwapoverTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapoverTemplateView.swift; sourceTree = "<group>"; };
+		2AED92269C7B3BBD8B9E37EA /* CachedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedModels.swift; sourceTree = "<group>"; };
+		2AEE73CDCD17B8919B3644B4 /* CareyContextBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareyContextBuilder.swift; sourceTree = "<group>"; };
+		301B2BF82FC37108D65684BA /* ShiftNoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftNoteRepository.swift; sourceTree = "<group>"; };
 		369C01634DDB31DB031E63F3 /* Invitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invitation.swift; sourceTree = "<group>"; };
 		3AAE5EDCF5BD115DB2AE4919 /* EmergencyContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContact.swift; sourceTree = "<group>"; };
+		3B955C16156B386CF63E4E00 /* ReminderRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRepository.swift; sourceTree = "<group>"; };
 		3EBD0ECB5C820B1D1D022A8D /* NotificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationListView.swift; sourceTree = "<group>"; };
 		40CD5CC7E4A4389BEC760A78 /* CareCoordinator.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CareCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CD03ED3A9C6D7A173DCB5F /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		464364C39F3F78760A415940 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
 		4CB7FCF2DEDB49ADFBDB1574 /* CreateTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskView.swift; sourceTree = "<group>"; };
 		4EAE283CE8BE4A3DAE369DD0 /* PTOListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTOListView.swift; sourceTree = "<group>"; };
+		4EC5A6BEC333A2D55687D0B7 /* ActivityLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogView.swift; sourceTree = "<group>"; };
+		5216DC414B65EABB17DE911F /* OfflineCacheService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineCacheService.swift; sourceTree = "<group>"; };
 		54A3AD3ED89D1BAF6DFF1F7D /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
 		62C7ECEE330750F9CBB4A9C4 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		655F44BF5F6485940EB12A87 /* CareCoordinatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareCoordinatorApp.swift; sourceTree = "<group>"; };
@@ -127,12 +166,17 @@
 		7B2702A563FA75CDC7431D60 /* CarerAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarerAvailability.swift; sourceTree = "<group>"; };
 		80909CECF35228561A378324 /* ShiftOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftOffer.swift; sourceTree = "<group>"; };
 		80C40655155F706ED70949C8 /* PTORequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTORequest.swift; sourceTree = "<group>"; };
+		82734A0E678562364BAC024E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		82F69871FC68AA0C1FD189FA /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		83E44B87E0CA022F6ED5EBDE /* ShiftOfferRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftOfferRepository.swift; sourceTree = "<group>"; };
+		846C3FF40337C94EF63B6BB5 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		86312514D9547EFC1B5DE716 /* KeyShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyShare.swift; sourceTree = "<group>"; };
+		89E116435FBA310A8FEBBBA9 /* CalendarSyncView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSyncView.swift; sourceTree = "<group>"; };
+		8B07209EA9562E6A392C41BA /* CarerDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarerDashboardView.swift; sourceTree = "<group>"; };
 		9029CE030FAE95778C97729B /* PushNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationService.swift; sourceTree = "<group>"; };
 		94DC549703A0F49086370EEC /* UploadCarePlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCarePlanView.swift; sourceTree = "<group>"; };
 		950CAE0C9ED0495B9DCF8E77 /* CareGroupRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareGroupRepository.swift; sourceTree = "<group>"; };
+		9F6F46FEB9E69A88A9F53EEB /* AvailabilityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityRepository.swift; sourceTree = "<group>"; };
 		A6707271AF0D6E258380948A /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
 		AC4BB3E64409006275E84CC5 /* OpenShiftsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenShiftsView.swift; sourceTree = "<group>"; };
 		AD58C9A7530653C799BCF35C /* CareGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareGroup.swift; sourceTree = "<group>"; };
@@ -144,14 +188,18 @@
 		C2832F578D25BFDE3B319E2F /* ShiftNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftNote.swift; sourceTree = "<group>"; };
 		C45BB8C2F2291C5E1804C742 /* CreateCareGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCareGroupView.swift; sourceTree = "<group>"; };
 		CA864668D74128E9BA53839B /* RotationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationRepository.swift; sourceTree = "<group>"; };
+		CB4C5AE134047AD9F2D44601 /* CalendarSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSyncService.swift; sourceTree = "<group>"; };
 		D1450FB7BB926E2794610245 /* ShiftDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftDetailView.swift; sourceTree = "<group>"; };
 		D2B1019BDB937AA7BB6C79BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2F6274BA8FCEAA8D34D24F5 /* CareCoordinatorTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CareCoordinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BECF914D9A79FB6658BE6A /* EmergencyContactRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactRepository.swift; sourceTree = "<group>"; };
+		E61D33FE2ECD3162C04A3D6E /* CareyChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareyChatService.swift; sourceTree = "<group>"; };
 		E8E867C8B6CEE1F5E0072415 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
 		E8F5ECF2B602C3A94CB6B7AE /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		EBD6DC8EB2C2FC66E49F7287 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		EDEB4AB69233FD9BCD06139B /* CarePlanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarePlanViewModel.swift; sourceTree = "<group>"; };
 		F34CD884C48BD5AC908AD9AE /* Shift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shift.swift; sourceTree = "<group>"; };
+		F6E0FA5F6DD3FC6835B39C54 /* AuditLogRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditLogRepository.swift; sourceTree = "<group>"; };
 		F6F2DA25BE0260EE96AB6E12 /* ShiftRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftRepository.swift; sourceTree = "<group>"; };
 		F761C72CFD46EF662949B510 /* NotificationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRepository.swift; sourceTree = "<group>"; };
 		F831EB78C1AF49A77FA276A1 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
@@ -174,9 +222,11 @@
 		194B0F96E72267D8BA791BC5 /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
+				1A875F48C1A0C905CB7D2CFA /* AvailabilityView.swift */,
 				E8F5ECF2B602C3A94CB6B7AE /* ScheduleView.swift */,
 				D1450FB7BB926E2794610245 /* ShiftDetailView.swift */,
 				268C1BD96424A4AA63993D72 /* ShiftListView.swift */,
+				1975BA7011A78FCD07C58921 /* ShiftNotesView.swift */,
 				1249E990EB176A59D95C83A9 /* ShiftRowView.swift */,
 			);
 			path = Schedule;
@@ -220,6 +270,7 @@
 		40DCDBBDC6F48373EC3DE818 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				138E25A331D5675CFB625C7F /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -236,6 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				23AB1B1B7D40166F31DE3978 /* AuditLogEntry.swift */,
+				2AED92269C7B3BBD8B9E37EA /* CachedModels.swift */,
 				AD58C9A7530653C799BCF35C /* CareGroup.swift */,
 				B830CD235F7312F93A32487E /* CareNotification.swift */,
 				69BB14E57118FC36E6D76E3F /* CarePlan.swift */,
@@ -260,6 +312,8 @@
 		4CFD7BBB7447B650B3CB3A50 /* Carey */ = {
 			isa = PBXGroup;
 			children = (
+				E61D33FE2ECD3162C04A3D6E /* CareyChatService.swift */,
+				2AEE73CDCD17B8919B3644B4 /* CareyContextBuilder.swift */,
 			);
 			path = Carey;
 			sourceTree = "<group>";
@@ -317,6 +371,7 @@
 				035BF8832D46CFD74478D112 /* AppDelegate.swift */,
 				655F44BF5F6485940EB12A87 /* CareCoordinatorApp.swift */,
 				C2197D9639066E008BD16B84 /* ContentView.swift */,
+				846C3FF40337C94EF63B6BB5 /* LaunchScreenView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -324,6 +379,8 @@
 		59DD788C2A5205E20C9E2C43 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				5216DC414B65EABB17DE911F /* OfflineCacheService.swift */,
+				179CE991CAC70C63176E1456 /* RealtimeService.swift */,
 				AEBAA25BD0E6C3E980CD4127 /* SupabaseManager.swift */,
 				50EEB4DBF832D816C5D18853 /* Auth */,
 				E1F27FE7524820E3159FEF06 /* Calendar */,
@@ -337,12 +394,17 @@
 		639BD16435040F523B2080D9 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				F6E0FA5F6DD3FC6835B39C54 /* AuditLogRepository.swift */,
+				9F6F46FEB9E69A88A9F53EEB /* AvailabilityRepository.swift */,
 				950CAE0C9ED0495B9DCF8E77 /* CareGroupRepository.swift */,
 				13A934A9A2556B27AEC83EF5 /* CarePlanRepository.swift */,
+				E4BECF914D9A79FB6658BE6A /* EmergencyContactRepository.swift */,
 				11437319D333A690D4B77E83 /* InvitationRepository.swift */,
 				F761C72CFD46EF662949B510 /* NotificationRepository.swift */,
 				25A358FA5F0817B0448DE390 /* PTORepository.swift */,
+				3B955C16156B386CF63E4E00 /* ReminderRepository.swift */,
 				CA864668D74128E9BA53839B /* RotationRepository.swift */,
+				301B2BF82FC37108D65684BA /* ShiftNoteRepository.swift */,
 				83E44B87E0CA022F6ED5EBDE /* ShiftOfferRepository.swift */,
 				F6F2DA25BE0260EE96AB6E12 /* ShiftRepository.swift */,
 				54A3AD3ED89D1BAF6DFF1F7D /* TaskRepository.swift */,
@@ -402,6 +464,7 @@
 		C26506E63D6EC5435D3B9437 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				05221A278DA45C8CE753F320 /* ErrorView.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -428,6 +491,7 @@
 		CEBFB86B586B84B764049C5D /* Carey */ = {
 			isa = PBXGroup;
 			children = (
+				09A30FD7068B66A0F31637F3 /* CareyChatView.swift */,
 			);
 			path = Carey;
 			sourceTree = "<group>";
@@ -435,6 +499,10 @@
 		E1C83EC7FD4A3FC251918558 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				89E116435FBA310A8FEBBBA9 /* CalendarSyncView.swift */,
+				1A6302A43BE7E450E9566996 /* EmergencyContactsView.swift */,
+				464364C39F3F78760A415940 /* RemindersView.swift */,
+				82734A0E678562364BAC024E /* SettingsView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -442,6 +510,7 @@
 		E1F27FE7524820E3159FEF06 /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
+				CB4C5AE134047AD9F2D44601 /* CalendarSyncService.swift */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -458,6 +527,9 @@
 		FE359BB8AE50E79E6C8F4834 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				4EC5A6BEC333A2D55687D0B7 /* ActivityLogView.swift */,
+				8B07209EA9562E6A392C41BA /* CarerDashboardView.swift */,
+				208A3739C80322FBBC77BDC2 /* ClientDashboardView.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -556,11 +628,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FFB70A976A7223CC760E978 /* ActivityLogView.swift in Sources */,
 				ADD54B6A935847BE4538E48E /* AppDelegate.swift in Sources */,
 				FB9D1EFFB8E42CDB8B704924 /* AppleSignInService.swift in Sources */,
 				C4E44D59EAD1DE2C42CD7C96 /* AuditLogEntry.swift in Sources */,
+				6489D851B79A5806EBFE4BC9 /* AuditLogRepository.swift in Sources */,
 				366798666A5B1086B243A593 /* AuthService.swift in Sources */,
 				5E55E938E01DC02763CCE112 /* AuthViewModel.swift in Sources */,
+				AC46EC69A62698EC9AC6B912 /* AvailabilityRepository.swift in Sources */,
+				C74AC455997CFDA6F998D4FF /* AvailabilityView.swift in Sources */,
+				A5C71C0F7109D68BF6EA50B3 /* CachedModels.swift in Sources */,
+				E081BE42DD1E99E4B48445F0 /* CalendarSyncService.swift in Sources */,
+				1220DE78ADB9DC571B363983 /* CalendarSyncView.swift in Sources */,
 				44229E3677AD9F9D9D37B6FA /* CareCoordinatorApp.swift in Sources */,
 				9C23D6C043746B2E0A736C07 /* CareGroup.swift in Sources */,
 				897D6E551BB4C8B3583BD07A /* CareGroupRepository.swift in Sources */,
@@ -572,12 +651,20 @@
 				7B93CB0F046DB92096847355 /* CarePlanViewModel.swift in Sources */,
 				865A3C30F18F45A70DC72B02 /* CareTask.swift in Sources */,
 				E263D2076B3E09843E6DE383 /* CarerAvailability.swift in Sources */,
+				E656A52C631DDF88828257FF /* CarerDashboardView.swift in Sources */,
+				A3C9E208EBDBF569DE59614C /* CareyChatService.swift in Sources */,
+				2FA1A353CEA80D0D4B1B1DCA /* CareyChatView.swift in Sources */,
+				8B06FDD72BB0AAC55FBFB2B1 /* CareyContextBuilder.swift in Sources */,
+				7686C95DFD9B186C3FE4366D /* ClientDashboardView.swift in Sources */,
 				4D2E6437D515718C534EAC47 /* ContentView.swift in Sources */,
 				E2FD5E5F91E4839F85915788 /* CreateCareGroupView.swift in Sources */,
 				7738CC3126DC6D9AA51F8F5D /* CreateTaskView.swift in Sources */,
 				6D4B14C1BD2F7643A58D6B6F /* CryptoService.swift in Sources */,
 				767BA52AF9F3FACA2F4B00CF /* EmergencyContact.swift in Sources */,
+				40CD6B84F542CF4BB71D9AA7 /* EmergencyContactRepository.swift in Sources */,
+				86E994223F80F9EF27AF6945 /* EmergencyContactsView.swift in Sources */,
 				5D13A392464332E1B8CCA64B /* Enums.swift in Sources */,
+				151E5E473708B2AD934C209B /* ErrorView.swift in Sources */,
 				81922DEBF6A9B387C7F7484A /* GeneralTaskListView.swift in Sources */,
 				3101BCD537EA7A7416806A59 /* Invitation.swift in Sources */,
 				D733C1A936378D86EC24EB38 /* InvitationRepository.swift in Sources */,
@@ -586,11 +673,14 @@
 				71A58F95427BF567BF0C566F /* JoinRequest.swift in Sources */,
 				49537B4E096F06EBFF3AC3B3 /* KeyShare.swift in Sources */,
 				38A8D266B17E4596833E6B4C /* KeychainService.swift in Sources */,
+				75B562D9620E2802DB45AE99 /* LaunchScreenView.swift in Sources */,
 				28CB085DBDBF43FDD9BE2E2B /* LoginView.swift in Sources */,
 				1B809CB46C5790917AD4780F /* NotificationListView.swift in Sources */,
 				206D227707DE6BB272E490CB /* NotificationRepository.swift in Sources */,
 				E1BF160A6235E01C4ACCE412 /* NotificationRowView.swift in Sources */,
 				AD94ECD29FDAB95A3FFB9541 /* NotificationViewModel.swift in Sources */,
+				7E12D7FD236EEDD24141F6A9 /* OfflineCacheService.swift in Sources */,
+				A0797038C8980B68E8C7A677 /* OnboardingView.swift in Sources */,
 				F0F9AC3BBA3CF19F8B684A99 /* OpenShiftsView.swift in Sources */,
 				8B035D141AA5E20C68C9E803 /* PDFViewerView.swift in Sources */,
 				B5A0B7DF87801A895A4028CF /* PTOListView.swift in Sources */,
@@ -600,16 +690,22 @@
 				9601B5D6EC217EF76B9ED967 /* PTOViewModel.swift in Sources */,
 				6363DD500D0D15A53ABF289B /* Profile.swift in Sources */,
 				C828E3A2C34A9821242159D3 /* PushNotificationService.swift in Sources */,
+				00D5C04E778D13E16C887A54 /* RealtimeService.swift in Sources */,
 				535115C0BBA520978643897B /* Reminder.swift in Sources */,
+				69235EB62BD2E5184F3BAB19 /* ReminderRepository.swift in Sources */,
+				E4A4F53C2BC6D58EEB2797BF /* RemindersView.swift in Sources */,
 				6102A660F2C31CE5FDB8FC29 /* RotationPattern.swift in Sources */,
 				7D8F4FA624F599E10E6917F8 /* RotationRepository.swift in Sources */,
 				C1C2E05D1BB98813E9212324 /* ScheduleView.swift in Sources */,
 				B8E1EE4C4F0D40AAAC3DD801 /* ScheduleViewModel.swift in Sources */,
 				7444DFF7C3E5843F5052D431 /* Secrets.swift in Sources */,
+				4EB0D92175DE8504A1625198 /* SettingsView.swift in Sources */,
 				DF1CF2F45F88C2F9F3BA3574 /* Shift.swift in Sources */,
 				3884F4BAED59604C7B96B30E /* ShiftDetailView.swift in Sources */,
 				25B2B35EAEB5C248E5E4B65F /* ShiftListView.swift in Sources */,
 				3D81B8C011F9683E0AE7AAB1 /* ShiftNote.swift in Sources */,
+				41E8743DC8F460B28E131A7D /* ShiftNoteRepository.swift in Sources */,
+				847ED71E7051EF5B057173A0 /* ShiftNotesView.swift in Sources */,
 				223E9B78265F8C2323757796 /* ShiftOffer.swift in Sources */,
 				8386F641E10432D9CE6580E3 /* ShiftOfferRepository.swift in Sources */,
 				B430FF6B4C9A161E74D4599B /* ShiftRepository.swift in Sources */,
