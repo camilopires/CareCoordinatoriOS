@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44229E3677AD9F9D9D37B6FA /* CareCoordinatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655F44BF5F6485940EB12A87 /* CareCoordinatorApp.swift */; };
+		4D2E6437D515718C534EAC47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2197D9639066E008BD16B84 /* ContentView.swift */; };
+		7444DFF7C3E5843F5052D431 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DF1ACA725A7761CCECB074 /* Secrets.swift */; };
+		933F64C9411EBA3AD054F8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B1019BDB937AA7BB6C79BF /* Assets.xcassets */; };
+		ACFA0CC219BDA0ADF7C3D76E /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = BCDE00964603F744087D8C1D /* Supabase */; };
+		D158939867E778849C746238 /* CareCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73095E896C0743FC49B0D6E5 /* CareCoordinatorTests.swift */; };
+		F3F731950EEB33DF7398687F /* SupabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBAA25BD0E6C3E980CD4127 /* SupabaseManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DFBE97CDB3DE4A77EA9C5F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60E0B098EAC869995F90B637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5249CB97FD1F3FCD6E04AFC6;
+			remoteInfo = CareCoordinator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02DF1ACA725A7761CCECB074 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		40CD5CC7E4A4389BEC760A78 /* CareCoordinator.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CareCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		655F44BF5F6485940EB12A87 /* CareCoordinatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareCoordinatorApp.swift; sourceTree = "<group>"; };
+		73095E896C0743FC49B0D6E5 /* CareCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareCoordinatorTests.swift; sourceTree = "<group>"; };
+		AEBAA25BD0E6C3E980CD4127 /* SupabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseManager.swift; sourceTree = "<group>"; };
+		C2197D9639066E008BD16B84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2B1019BDB937AA7BB6C79BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2F6274BA8FCEAA8D34D24F5 /* CareCoordinatorTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CareCoordinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F71650637F7365374A8AE5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFA0CC219BDA0ADF7C3D76E /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194B0F96E72267D8BA791BC5 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		274C57972C0406D569BC898D /* CareCoordinatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				73095E896C0743FC49B0D6E5 /* CareCoordinatorTests.swift */,
+			);
+			path = CareCoordinatorTests;
+			sourceTree = "<group>";
+		};
+		293591ED2C3EFCAE0E6EB484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40CD5CC7E4A4389BEC760A78 /* CareCoordinator.app */,
+				E2F6274BA8FCEAA8D34D24F5 /* CareCoordinatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DDD6A1C5918244328E820D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67E3A17CE006E08C03690522 /* Auth */,
+				C8A7A8A0735513CAAE5350ED /* CarePlans */,
+				ADA88094E6B28CD3941985FE /* Carers */,
+				CEBFB86B586B84B764049C5D /* Carey */,
+				FE359BB8AE50E79E6C8F4834 /* Dashboard */,
+				9E0F6B4BD620E809ABB58F9F /* Notifications */,
+				40DCDBBDC6F48373EC3DE818 /* Onboarding */,
+				65872CD04F09BD234401EF89 /* PTO */,
+				194B0F96E72267D8BA791BC5 /* Schedule */,
+				E1C83EC7FD4A3FC251918558 /* Settings */,
+				9455C7E39CB7436C051D2EB0 /* Tasks */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40DCDBBDC6F48373EC3DE818 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		44E48F38892647FE71A7A34B /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		49D18013D77C3FB4791D8F77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4CFD7BBB7447B650B3CB3A50 /* Carey */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Carey;
+			sourceTree = "<group>";
+		};
+		4DFE1EA018019B80649C9F84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2B1019BDB937AA7BB6C79BF /* Assets.xcassets */,
+				02DF1ACA725A7761CCECB074 /* Secrets.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4E9EB7292CE168DDA4BEC441 /* CareCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5922777293E789B3DBBE61CB /* App */,
+				49D18013D77C3FB4791D8F77 /* Models */,
+				639BD16435040F523B2080D9 /* Repositories */,
+				4DFE1EA018019B80649C9F84 /* Resources */,
+				59DD788C2A5205E20C9E2C43 /* Services */,
+				C26506E63D6EC5435D3B9437 /* Utilities */,
+				5106BA85C6C84AC9208D12A7 /* ViewModels */,
+				3DDD6A1C5918244328E820D3 /* Views */,
+			);
+			path = CareCoordinator;
+			sourceTree = "<group>";
+		};
+		50EEB4DBF832D816C5D18853 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		5106BA85C6C84AC9208D12A7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5922777293E789B3DBBE61CB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				655F44BF5F6485940EB12A87 /* CareCoordinatorApp.swift */,
+				C2197D9639066E008BD16B84 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		59DD788C2A5205E20C9E2C43 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AEBAA25BD0E6C3E980CD4127 /* SupabaseManager.swift */,
+				50EEB4DBF832D816C5D18853 /* Auth */,
+				E1F27FE7524820E3159FEF06 /* Calendar */,
+				4CFD7BBB7447B650B3CB3A50 /* Carey */,
+				E5E20C622D52033A92725BE9 /* Crypto */,
+				44E48F38892647FE71A7A34B /* Notifications */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		639BD16435040F523B2080D9 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		65872CD04F09BD234401EF89 /* PTO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PTO;
+			sourceTree = "<group>";
+		};
+		67E3A17CE006E08C03690522 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		9455C7E39CB7436C051D2EB0 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		9E0F6B4BD620E809ABB58F9F /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		ADA88094E6B28CD3941985FE /* Carers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Carers;
+			sourceTree = "<group>";
+		};
+		C26506E63D6EC5435D3B9437 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C8A7A8A0735513CAAE5350ED /* CarePlans */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CarePlans;
+			sourceTree = "<group>";
+		};
+		C8C0540A4039E8F3A232AD16 = {
+			isa = PBXGroup;
+			children = (
+				4E9EB7292CE168DDA4BEC441 /* CareCoordinator */,
+				274C57972C0406D569BC898D /* CareCoordinatorTests */,
+				293591ED2C3EFCAE0E6EB484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBFB86B586B84B764049C5D /* Carey */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Carey;
+			sourceTree = "<group>";
+		};
+		E1C83EC7FD4A3FC251918558 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E1F27FE7524820E3159FEF06 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		E5E20C622D52033A92725BE9 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		FE359BB8AE50E79E6C8F4834 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE497529C915CCD58574144 /* CareCoordinatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2586FCF120A7CDE744FA357D /* Build configuration list for PBXNativeTarget "CareCoordinatorTests" */;
+			buildPhases = (
+				4AB202514225799636DC0420 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41EE442AC86C1D822D4B1DC0 /* PBXTargetDependency */,
+			);
+			name = CareCoordinatorTests;
+			packageProductDependencies = (
+			);
+			productName = CareCoordinatorTests;
+			productReference = E2F6274BA8FCEAA8D34D24F5 /* CareCoordinatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5249CB97FD1F3FCD6E04AFC6 /* CareCoordinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2B942B51F93F66FAEB29D9 /* Build configuration list for PBXNativeTarget "CareCoordinator" */;
+			buildPhases = (
+				265566DAC765977F3175082B /* Sources */,
+				8615F2F1393B44E698AB2082 /* Resources */,
+				8F71650637F7365374A8AE5E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CareCoordinator;
+			packageProductDependencies = (
+				BCDE00964603F744087D8C1D /* Supabase */,
+			);
+			productName = CareCoordinator;
+			productReference = 40CD5CC7E4A4389BEC760A78 /* CareCoordinator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60E0B098EAC869995F90B637 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5249CB97FD1F3FCD6E04AFC6 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDBFAFA8A76BEF072F775D04 /* Build configuration list for PBXProject "CareCoordinator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C8C0540A4039E8F3A232AD16;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2420BAC4785BEAACE2B0E4E6 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5249CB97FD1F3FCD6E04AFC6 /* CareCoordinator */,
+				2CE497529C915CCD58574144 /* CareCoordinatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8615F2F1393B44E698AB2082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933F64C9411EBA3AD054F8D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		265566DAC765977F3175082B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44229E3677AD9F9D9D37B6FA /* CareCoordinatorApp.swift in Sources */,
+				4D2E6437D515718C534EAC47 /* ContentView.swift in Sources */,
+				7444DFF7C3E5843F5052D431 /* Secrets.swift in Sources */,
+				F3F731950EEB33DF7398687F /* SupabaseManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB202514225799636DC0420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D158939867E778849C746238 /* CareCoordinatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41EE442AC86C1D822D4B1DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5249CB97FD1F3FCD6E04AFC6 /* CareCoordinator */;
+			targetProxy = 3DFBE97CDB3DE4A77EA9C5F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B9570E4639BA65B3F3E92B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "CareCoordinator syncs your shifts to your calendar so you never miss one.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carecoordinator.CareCoordinator;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14B9FA7387FB77D9976A1EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		23E20C9A93562DB839B8E45D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carecoordinator.CareCoordinatorTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CareCoordinator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CareCoordinator";
+			};
+			name = Debug;
+		};
+		553F39C6057AC5B91C8F726F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carecoordinator.CareCoordinatorTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CareCoordinator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CareCoordinator";
+			};
+			name = Release;
+		};
+		9AA974A278C347AE4BBD803E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CD220F37DDD9AE7E77B0D813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_GENERATION_MODE = GeneratedFile;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "CareCoordinator syncs your shifts to your calendar so you never miss one.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.carecoordinator.CareCoordinator;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2586FCF120A7CDE744FA357D /* Build configuration list for PBXNativeTarget "CareCoordinatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E20C9A93562DB839B8E45D /* Debug */,
+				553F39C6057AC5B91C8F726F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA2B942B51F93F66FAEB29D9 /* Build configuration list for PBXNativeTarget "CareCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B9570E4639BA65B3F3E92B9 /* Debug */,
+				CD220F37DDD9AE7E77B0D813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDBFAFA8A76BEF072F775D04 /* Build configuration list for PBXProject "CareCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B9FA7387FB77D9976A1EDA /* Debug */,
+				9AA974A278C347AE4BBD803E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2420BAC4785BEAACE2B0E4E6 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BCDE00964603F744087D8C1D /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2420BAC4785BEAACE2B0E4E6 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 60E0B098EAC869995F90B637 /* Project object */;
+}

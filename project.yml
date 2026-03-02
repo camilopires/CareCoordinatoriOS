@@ -1,0 +1,51 @@
+name: CareCoordinator
+options:
+  bundleIdPrefix: com.carecoordinator
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "16.0"
+  generateEmptyDirectories: true
+
+packages:
+  Supabase:
+    url: https://github.com/supabase/supabase-swift
+    majorVersion: 2.0.0
+
+targets:
+  CareCoordinator:
+    type: application
+    platform: iOS
+    sources:
+      - path: CareCoordinator
+    resources:
+      - path: CareCoordinator/Resources/Assets.xcassets
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_GENERATION_MODE: GeneratedFile
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_EMIT_LOC_STRINGS: "YES"
+        PRODUCT_BUNDLE_IDENTIFIER: com.carecoordinator.CareCoordinator
+        CODE_SIGN_STYLE: Automatic
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription: "CareCoordinator syncs your shifts to your calendar so you never miss one."
+    dependencies:
+      - package: Supabase
+
+  CareCoordinatorTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: CareCoordinatorTests
+    dependencies:
+      - target: CareCoordinator
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/CareCoordinator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CareCoordinator"

@@ -1,0 +1,16 @@
+# Secrets
+CareCoordinator/Resources/Secrets.swift
+
+# Xcode
+*.xcuserdata/
+DerivedData/
+*.xcworkspace/xcuserdata/
+build/
+
+# Swift Package Manager
+.build/
+Packages/
+*.resolved
+
+# OS
+.DS_Store
